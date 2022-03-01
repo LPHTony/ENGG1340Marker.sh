@@ -7,7 +7,7 @@ This script will keep updating according to unannounced assignment in future or 
 ## Directory example:
 The root directory of the script is based on **Code templates and sample test cases.zip**.
 
-1. Example1/ (Testing only one questions)
+1. Example1/ (Testing only one problem)
    - p1/
      - sample_test_cases/
        - input1_1.txt
@@ -22,7 +22,7 @@ The root directory of the script is based on **Code templates and sample test ca
    - p3/
      - ...
 
-2. Example2 (Testing all questions at once)
+2. Example2 (Testing all problems at once)
    - p1/
      - sample_test_cases/
        - ...
