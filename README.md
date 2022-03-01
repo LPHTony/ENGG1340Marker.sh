@@ -1,8 +1,8 @@
 # ENGG1340Marker.sh
 
-A simple shell script for checking the sample test cases of the ENGG1340 assignments.
+A simple shell script using for checking the sample test cases of the ENGG1340 assignments.
 
-This script will keep updating according to the future unannounced assignment or anything I would like to try later. (e.g. support of makefile)
+This script will keep updating according to unannounced assignment in future or anything I would like to try later. (e.g. support of makefile)
 
 ## Directory example:
 The root directory of the script is based on **Code templates and sample test cases.zip**.
