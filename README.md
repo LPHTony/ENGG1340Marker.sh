@@ -1,4 +1,4 @@
-# ENGG1340Tester.sh
+# ENGG1340Marker.sh
 
 A simple shell script for checking the sample test cases of the ENGG1340 assignments.
 
