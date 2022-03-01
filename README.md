@@ -1,6 +1,6 @@
 # ENGG1340Tester.sh
 
-A simple shell script for marking the sample test cases of the ENGG1340 assignments.
+A simple shell script for testing the sample test cases of the ENGG1340 assignments.
 
 This script will keep updating according to the future unannounced assignment or anything I would like to try later. (e.g. support of makefile)
 
