@@ -7,11 +7,11 @@ Build_and_Execute () {
     then
         for file in `ls ${Path} | grep input`
         do
-            if test -f ${Path}/${file}
+            if [ -f ${Path}/${file} ]
             then
                 Number="`ls ${Path}/${file} | grep -Po '\d+_\d+'`"
                 ./$ProblemNumber < ${Path}/input${Number}.txt > myoutput${Number}.txt
-                if diff myoutput${Number}.txt ${Path}/output${Number}.txt >/dev/null
+                if diff myoutput${Number}.txt ${Path}/output${Number}.txt 1>/dev/null 2>&1
                 then
                     printf "Testcase ${Number} Passed\n"
                     rm myoutput${Number}.txt
@@ -26,7 +26,7 @@ Build_and_Execute () {
     fi
 }
 
-if [ ls ./*.cpp 1>/dev/null 2>&1 == ls ${Path} 1>/dev/null 2>&1 ]
+if [ -e ./*.cpp ] && [ -e ${Path} ]
 then
     Build_and_Execute
 else
@@ -35,7 +35,7 @@ else
         if test -d $dir
         then
             cd ./$dir
-            if ls ./*.cpp 1>/dev/null 2>&1
+            if [ -e ./*.cpp ] && [ -e ${Path} ]
             then
                 echo Problem `echo ${dir} | grep -Po '\d+'`:
                 Build_and_Execute
