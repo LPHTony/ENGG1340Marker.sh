@@ -13,11 +13,11 @@ Build_and_Execute () {
                 ./$ProblemNumber < ${Path}/input${Number}.txt > myoutput${Number}.txt
                 if diff myoutput${Number}.txt ${Path}/output${Number}.txt 1>/dev/null 2>&1
                 then
-                    printf "Testcase ${Number} Passed\n"
+                    echo Testcase ${Number} Passed
                     rm myoutput${Number}.txt
                 else
-                    printf "Testcase ${Number} Failed\n"
-                    diff myoutput${Number}.txt ${Path}/output${Number}.txt
+                    echo Testcase ${Number} Failed
+                    diff --color myoutput${Number}.txt ${Path}/output${Number}.txt 
                 fi
             fi
         done
