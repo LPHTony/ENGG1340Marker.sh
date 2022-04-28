@@ -25,7 +25,7 @@ The root directory of both script is based on **Code templates and sample test c
 
 2. Testing all problems at once
    - p1/
-     - test_test_Cases/  (Test cases used in grading.zip)
+     - test_cases/  (Test cases used in grading.zip)
        -  1_1.in
        -  1_1.out
      - sample_test_cases/
