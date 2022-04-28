@@ -14,13 +14,12 @@ The root directory of both script is based on **Code templates and sample test c
        - input1_1.txt
        - output1_1.txt
      - 1.cpp
-     - 👉**mark_sample.sh**
-     - 👉**mark_grade.sh**
+     - 👉**mark*.sh**
    - p2/
      - sample_test_cases/
        - ...
      - 2.cpp
-     - 👉**mark.sh**
+     - 👉**mark*.sh**
    - p3/
      - ...
 
@@ -36,8 +35,7 @@ The root directory of both script is based on **Code templates and sample test c
      - sample_test_cases/
        - ...
      - 2.cpp
-   - 👉**mark_sample.sh**
-   - 👉**mark_grade.sh**
+   - 👉**mark*.sh**
 
 
 ## Output example
