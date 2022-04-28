@@ -2,6 +2,10 @@
 
 A simple shell script using for checking the sample test cases of the ENGG1340 assignments.
 
+Using **mark_grade.sh** to check "the test cases used in grading".
+
+Using **mark_sample.sh** to check "the sample test cases".
+
 ## Directory example:
 The root directory of both script is based on **Code templates and sample test cases.zip**.
 
